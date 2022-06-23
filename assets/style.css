@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.logo-nav {
+    height: 100px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-nav a  {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a img {
+    width: 150px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Frame 1 */
+
+.marvel {
+    background-color: #f00;
+}
+
+.news {
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card-container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-news {
+    height: 350px;
+    margin-top: 30px;
+}
+
+.card-news,
+.card-news img {
+    width: 300px;
+}
+
+.card-news a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-news p {
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aside-product {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
+
+aside {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.logo-disney {
+    border: 1px solid #000;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+aside img {
+    width: 300px;
+}
+
+aside p {
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.product img {
+    width: 50%;
+}
+
+/* Frame 2 */
+
+.cobasi {
+    background-color: #003383;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.dog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.dog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+}
+
+
+.dog-card img {
+    width: 360px;
+}
+
+.dog-card p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Frame 3 */
+
+.youtube {
+    background-color: #777;
+}
+
+.youtube-channel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.video-card {
+    margin-bottom: 20px;
+}
+
+.video-card div {
+    width: 165px;
+    height: 120px;
+    background-color: #777;
+    margin-bottom: 5px;
+}
+
+.video-card p {
+    font-size: 18px;
+}
+
+/* Frame 4 */
+
+.frame {
+    background-color: #1d1e20;
+}
+
+.main-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.primary-container {
+    background-color: #777;
+}
+
+.legend-container {
+    background-color: #000;
+    color: #fff;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0
+}
+
+.left-primary-container {
+    width: 350px;
+    height: 400px;
+}
+
+.first-right-container {
+    margin-bottom: 20px;
+}
+
+.right-primary-container {
+    width: 350px;
+    height: 190px;
+}
+
+.left-container, .first-right-container, .second-right-container {
+    position: relative;
+}
+
+
+
+
