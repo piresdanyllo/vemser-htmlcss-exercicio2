@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.logo-nav {
+    height: 100px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a img {
+    width: 150px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.marvel {
+    background-color: #f00;
+}
+
+/* Main */
+
+/* Frame 1 Utilizando grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.propaganda-products {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.no-propaganda {
+    grid-template-rows: 0 1fr 1fr;
+}
+
+.news1 {
+    justify-self: flex-start;
+}
+
+.news2 {
+    justify-self: center;
+}
+
+.news3 {
+    justify-self: flex-end;
+}
+
+.card-news {
+    height: 350px;
+    margin-top: 30px;
+}
+
+.card-news,
+.card-news img {
+    width: 300px;
+}
+
+.card-news a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-news p {
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+aside {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.logo-disney {
+    border: 1px solid #000;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+aside img {
+    width: 300px;
+}
+
+aside p {
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 50%;
+}
+
+/* Frame 2 Utilizando grid */
+
+.cobasi {
+    background-color: #003383;
+}
+
+.main-cobasi h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.grid-cobasi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.dog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+}
+
+.dog-card:nth-child(2),
+.dog-card:nth-child(5) {
+    justify-self: center;
+}
+
+.dog-card:nth-child(3n+3) {
+    justify-self: flex-end;
+}
+
+
+.dog-card img {
+    width: 360px;
+}
+
+.dog-card p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Frame 3 */
+
+.youtube {
+    background-color: #777;
+}
+
+.youtube-channel {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.video-card {
+    margin-bottom: 20px;
+}
+
+.video-card div {
+    width: 165px;
+    height: 120px;
+    background-color: #777;
+    margin-bottom: 5px;
+}
+
+.video-card p {
+    font-size: 18px;
+}
+
+.container-recommend {
+    justify-self: flex-end;
+}
+
+/* Frame 4 */
+
+.frame {
+    background-color: #1d1e20;
+}
+
+.main-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.primary-container {
+    background-color: #777;
+}
+
+.left-primary-container {
+    height: 400px;
+}
+
+.left-container .legend-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-container div:last-child {
+    justify-self: flex-end;
+}
+
+.legend-container {
+    background-color: #000;
+    color: #fff;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.first-right-container {
+    margin-bottom: 20px;
+}
+
+.right-primary-container {
+    height: 190px;
+}
