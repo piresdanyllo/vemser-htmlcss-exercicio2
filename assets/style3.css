@@ -1,0 +1,48 @@
+.cobasi {
+    background-color: #003383;
+}
+
+.logo-nav {
+    height: 100px;
+}
+
+.logo-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    width: 300px;
+    margin-top: 16px;
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+header a img {
+    width: 150px;
+}
+
+.dog-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dog-card img {
+    width: 100%;
+}
+
+@media (max-width:425px) {
+    .logo-nav {
+        flex-direction: column;
+    }
+
+    .logo-nav a {
+        margin-top: 10px;
+    }
+}
